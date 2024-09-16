@@ -1,0 +1,56 @@
+
+.redbg {
+    color:white;
+    background-color: red;
+}
+
+.aqua {
+    background-color:orangered;
+}
+
+ 
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: Black;
+    background-color: white;
+}
+
+.bluebg {
+    color:black;
+    background-color: rgb(247, 247, 252);
+}
+
+
+a {
+    color: rgb(10, 50, 10);
+}
+
+
+a:hover {
+    color: red;
+}
+
+.white {
+    color:white;
+}
+
+.whitetwo {
+    color:white;
+}
+
+
+.pomp {
+    color:red;
+}
+
+.spanstyle {
+    color:rgb(174, 174, 6);
+}
+.tan {
+    color:white;
+    background-color: orange;
+}
