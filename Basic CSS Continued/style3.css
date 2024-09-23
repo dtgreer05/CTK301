@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+        background-image: url(rick.jpeg);
+        background-repeat: no-repeat;
+        background-position: top right;
+}
+
+.customtext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.fontcombined {
+    font: bold 20px Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 64px;
+}
+
+.imgbox {
+    border: 10px solid white;
+    background-color: yellow;
+    padding: 25px;
+    margin: 20px;
+    width: 500px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+a:visited {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+
+a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+
+
+
+#divexample {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: goldenrod;
+}
+
+.spanstyle {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+}
