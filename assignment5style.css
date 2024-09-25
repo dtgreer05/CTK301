@@ -1,0 +1,106 @@
+
+body {
+    background-color: #eeeeee;
+    background-image: url(a5bg.png);
+    background-position: top center;
+}
+
+
+
+
+.customtext {
+    background-color: white;
+    padding: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: Left;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+}
+.fontcombined {
+    background-color: white;
+    padding: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: Left;
+}
+
+
+.border {
+    border-bottom: 5px solid #000000;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+.just {
+    font: bold 15px Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 30px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+   
+nav li {
+    border: 1px solid;
+    display: inline-block;
+    padding: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 175px;
+    background-color: rgb(19, 80, 159);
+    color: #FFFFFF;
+}
+
+
+
+    nav li a {
+        color: #FFFFFF;
+        text-decoration: none;
+        display: block;
+        border: 1px solid #000000;
+        padding: 25px;
+        background-color: darkblue;
+    }
+
+    nav li a:hover {
+        background-image: linear-gradient(to top, #1385f6, #166ce4, #1661d2, #1559c0, #134eae);
+    }
+
+    main a {
+     text-decoration: none;
+    
+    }
+    
+    main a:visited {
+        color: orange;
+    }
+
+   main a:hover {
+        color: #c71515;
+        text-decoration: underline;
+
+    }
+
+    footer {
+        background-color: darkblue;
+        border: 3px solid white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 12px;
+        text-align: center;
+        color: white;
+       }
