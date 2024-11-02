@@ -1,0 +1,217 @@
+body {
+    background-color: gray;
+}
+
+
+#wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    border: 3px solid darkblue;
+    margin: 1em auto;
+    padding: 0;
+    width: 1000px;
+    background-color: #ffffff;
+    display: grid;
+  }
+
+header {
+    font-family: arial, helvetica, sans-serif;
+    grid-column: span 3; background-image: linear-gradient(to top, #1385f6, #166ce4, #1661d2, #1559c0, hsl(217, 80%, 38%));
+  padding-left: 18px;
+    display: block;
+    Text-decoration: none;
+    border-bottom: 2px solid blue;
+  }
+
+ 
+
+
+  a {
+    color: lightblue;
+    Text-decoration: none;
+  }
+
+  a:hover{
+    color: white;
+    background-image: linear-gradient (to top), #1385f6, #166ce4, #1661d2, #1559c0, hsl(217, 80%, 38%);
+  }
+
+  nav {
+    grid-column: span 3;
+    
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, #1385f6, #166ce4, #1661d2, #1559c0, #134eae);
+}
+
+
+   
+nav li {
+   display: inline-block;
+    color: #FFFFFF;
+    background-image: linear-gradient(to top), #1385f6, #166ce4, #1661d2, #1559c0, #134eae);
+    padding: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 300px;
+}
+
+
+
+    nav li a {
+        display: block;
+        text-decoration: none;
+        padding: 25px;
+    }
+
+
+
+    nav li a:hover {
+        color:white;
+        background-image: linear-gradient(to bottom, #1385f6, #166ce4, #1661d2, #1559c0, hsl(217, 80%, 38%));
+    }
+
+
+#second {
+  font-family: Arial, Helvetica, sans-serif; 
+  grid-column: span 2;
+
+}
+  
+
+
+aside {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+ padding-left: 5px;
+ 
+}
+
+#TheBeef {
+  float: left;
+}
+
+
+
+
+    main a {
+     text-decoration: none;
+    
+    }
+  
+
+
+  main {
+    grid-column: span 2;
+    padding: 0 1em 0 1em;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+  }
+
+  .border {
+    border-bottom: 5px solid #000000;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+#C {
+  grid-column: span 1;
+  font-family: Arial, Helvetica, sans-serif; 
+  color: blue;
+    border-bottom: 3px solid blue;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#S {
+  grid-column: span 1;
+  font-family: Arial, Helvetica, sans-serif; 
+  color: blue;
+    border-bottom: 3px solid blue;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 5px;
+    margin-right: 7px;
+}
+#R {
+  grid-column: span 1;
+  font-family: Arial, Helvetica, sans-serif; 
+  color: blue;
+    border-bottom: 3px solid blue;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#TheBear {
+float: right;
+}
+
+#Carmy {
+  float: left;
+}
+
+#sydney {
+  float: center;
+}
+
+#Richie {
+  float: right;
+}
+
+.floating {
+  float: left;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 2px;
+}
+
+.float {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 2px;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+   color: red;
+   }
+   
+   #left {
+    float: left;
+    justify-content: left;
+   }
+   #center {
+    float: center;
+    justify-content: center;
+   }
+   #right {
+    float: right;
+    justify-content: right;
+   }
+
+  main a:hover {
+       color: blue;
+       text-decoration: underline;
+
+   }
+
+  
+  footer {
+    font-family: latin 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+    border-top: 2px solid black
+    font-size: 16px;
+    text-align: center;
+    grid-column: span 3;
+
+  }
